@@ -91,9 +91,21 @@ function updateCounter() {
     counterElement.innerText = `${answeredQuestions}/${totalQuestions}`;
 }
 
-function checkVersion() {
-    alert("Last updated: 12/10/23 11:11am");
-}
+document.addEventListener("DOMContentLoaded", function () {
+    const body = document.body;
+    const switchColorsButton = document.getElementById("switchColors");
 
+    switchColorsButton.addEventListener("click", function () {
+        body.classList.toggle("light-mode");
+
+        const currentText = switchColorsButton.textContent;
+        const newText = currentText === "☼" ? "☾" : "☼";
+        switchColorsButton.textContent = newText;
+    });
+});
+
+function checkVersion() {
+    alert("Last updated: 12/10/23 01:22am");
+}
 
 displayRandomQuestion();
