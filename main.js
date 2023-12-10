@@ -4,7 +4,7 @@ let usedQuestions = [];
 
 function displayRandomQuestion() {
     if (usedQuestions.length === questions.length) {
-        alert("All questions have been displayed. Please refresh the page to start again.");
+        alert("Congratulations, you finished the quiz!. Please refresh the page to start again.");
         return;
     }
 
@@ -17,7 +17,7 @@ function displayRandomQuestion() {
     const quizForm = document.getElementById("quizForm");
     quizForm.innerHTML = "";
 
-    const shuffledOptions = shuffleOptions(generateOptions(currentQuestion.answer));
+    const shuffledOptions = shuffleOptions(generateOptionsByCategory(currentQuestion.category, currentQuestion.answer));
     shuffledOptions.forEach((option, index) => {
         const label = document.createElement("label");
         label.innerHTML = `
@@ -42,11 +42,11 @@ function shuffleOptions(options) {
     return options.sort(() => Math.random() - 0.5);
 }
 
-function generateOptions(correctAnswer) {
+function generateOptionsByCategory(category, correctAnswer) {
     const options = [];
     while (options.length < 3) {
-        const randomQuestion = getRandomQuestion();
-        const randomOption = getRandomOption(randomQuestion.answer);
+        const randomQuestion = getRandomQuestionByCategory(category);
+        const randomOption = getRandomOptionByCategory(category, randomQuestion.answer);
         if (!options.includes(randomOption) && randomOption !== correctAnswer) {
             options.push(randomOption);
         }
@@ -55,13 +55,14 @@ function generateOptions(correctAnswer) {
     return options;
 }
 
-function getRandomQuestion() {
-    let remainingQuestions = questions.filter(q => !usedQuestions.includes(q));
+function getRandomQuestionByCategory(category) {
+    let remainingQuestions = questions.filter(q => !usedQuestions.includes(q) && q.category === category);
     return remainingQuestions[Math.floor(Math.random() * remainingQuestions.length)];
 }
 
-function getRandomOption(correctAnswer) {
-    const options = questions.map(question => question.answer).filter(answer => answer !== correctAnswer);
+function getRandomOptionByCategory(category, correctAnswer) {
+    const options = questions.filter(question => question.category === category && question.answer !== correctAnswer)
+                            .map(question => question.answer);
     return options[Math.floor(Math.random() * options.length)];
 }
 
@@ -105,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function checkVersion() {
-    alert("Last updated: 12/10/23 01:22am");
+    alert("Last updated: 12/11/23 07:22am");
 }
 
 displayRandomQuestion();
