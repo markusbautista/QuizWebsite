@@ -1,5 +1,5 @@
 const questions = [
-  { question: "What is the largest planet in our solar system?", answer: "Jupiter" },
+  { question: "What is the largest planet in our solar system? What is the largest planet in our solar system? What is the largest planet in our solar system? What is the largest planet in our solar system? What is the largest planet in our solar system?", answer: "Jupiter" },
   { question: "Which galaxy is the Milky Way destined to collide with in the distant future?", answer: "Andromeda Galaxy" },
   { question: "What is the name of the phenomenon where a star explodes, releasing an enormous amount of energy?", answer: "Supernova" },
   { question: "Which planet is known as the 'Red Planet'?", answer: "Mars" },
