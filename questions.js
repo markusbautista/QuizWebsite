@@ -1,11 +1,7 @@
-import art_questions from './q_categories/art.js';
-import history_questions from './q_categories/history.js';
-import science_questions from './q_categories/science.js';
+import chapter1Questions from './q_categories/chapter1Questions.js';
 
 const questions = [
-  ...science_questions,
-  ...history_questions,
-  ...art_questions
+  ...chapter1Questions,
 ];
 
 export default questions;
