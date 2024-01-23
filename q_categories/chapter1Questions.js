@@ -206,7 +206,7 @@ const chapter1_questions = [
   },
   {
     question: "An algorithm can be specified in English, as a computer program, or even a hardware design. The only requirement is that the specification must provide an accurate description of the computational procedure to be followed.",
-    answer: "Computer Program",
+    answer: "True",
     category: "Chapter1"
   },
   {
