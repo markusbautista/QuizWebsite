@@ -230,3 +230,5 @@ const chapter1Questions = [
     category: "Chapter_1"
   }
 ];
+
+export default chapter1Questions;
