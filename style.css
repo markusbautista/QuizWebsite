@@ -42,8 +42,7 @@ body.light-mode #switchColors {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    max-width: 60vw;
-    max-height: 60vh;
+    max-width: 600px;
     width: 90%;
     box-sizing: border-box;
     margin: 1% auto;
