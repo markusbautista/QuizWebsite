@@ -20,7 +20,7 @@ const chapter1_questions = [
     category: "Chapter1"
   },
   {
-    question: "Is a piece of computer hardware that receives data from a computer and then translates that data into another form. That form may be audio, visual, textual, or hard copy such as a printed document.ss",
+    question: "Is a piece of computer hardware that receives data from a computer and then translates that data into another form. That form may be audio, visual, textual, or hard copy such as a printed document.",
     answer: "Output Devices",
     category: "Chapter1"
   },
@@ -55,7 +55,7 @@ const chapter1_questions = [
     category: "Chapter1"
   },
   {
-    question: "A set of instructions that directs a computer’s hardware to perform a task is called a program, or software program.",
+    question: "A set of instructions that directs a computer’s hardware to perform a task is called a _____, or _____.",
     answer: "Program/Software Program",
     category: "Chapter1"
   },
@@ -100,7 +100,7 @@ const chapter1_questions = [
     category: "Chapter1"
   },
   {
-    question: "The user makes use of application software to perform some specific task.",
+    question: "The user makes use of _____ to perform some specific task.",
     answer: "Application Software",
     category: "Chapter1"
   },
@@ -110,7 +110,7 @@ const chapter1_questions = [
     category: "Chapter1"
   },
   {
-    question: "Generally, the user interacts with the application software.",
+    question: "Generally, the user interacts with the _____.",
     answer: "Application Software",
     category: "Chapter1"
   },
@@ -125,16 +125,21 @@ const chapter1_questions = [
     category: "Chapter1"
   },
   {
-    question: "We make use of system software for operating hardware on the computer.",
+    question: "We make use of _____ for operating hardware on the computer.",
     answer: "System Software",
     category: "Chapter1"
   },
   {
-    question: "When the operating system is installed on the computer, then the system software is also mounted on the machine.",
+    question: "When the _____ is installed on the computer, then the system software is also mounted on the machine.",
+    answer: "Operating System",
+    category: "Chapter1"
+  },
+  {
+    question: "When the operating system is installed on the computer, then the _____ is also mounted on the machine.",
     answer: "System Software",
     category: "Chapter1"
   },
-   {
+  {
     question: " _____ works in the background. So the user is not able to interact with it.",
     answer: "System Software",
     category: "Chapter1"
@@ -190,7 +195,7 @@ const chapter1_questions = [
     category: "Chapter1"
   },
   {
-    question: "Given the input sequence: {31; 41; 59; 26; 41; 58}, a sorting algorithm returns as output the sequence {26; 31; 41; 41; 58; 59}. Such an input sequence is called an instance of the sorting problem.",
+    question: "Given the input sequence: {31; 41; 59; 26; 41; 58}, a _____ algorithm returns as output the sequence {26; 31; 41; 41; 58; 59}.",
     answer: "Sorting",
     category: "Chapter1"
   },
@@ -200,7 +205,7 @@ const chapter1_questions = [
     category: "Chapter1"
   },
   {
-    question: "Because many programs use it as an intermediate step, sorting is a fundamental operation in computer science. As a result, we have a large number of good sorting algorithms at our disposal.",
+    question: "Because many programs use it as an intermediate step, _____ is a fundamental operation in computer science. As a result, we have a large number of good sorting algorithms at our disposal.",
     answer: "Sorting",
     category: "Chapter1"
   },
@@ -232,6 +237,26 @@ const chapter1_questions = [
   {
     question: "We say that a correct algorithm solves the given computational problem. Contrary to what you might expect, faulty algorithms can sometimes be helpful, if we can control their error rate.",
     answer: "True",
+    category: "Chapter1"
+  },
+  {
+    question: "The _____ has made great progress toward identifying all the 100,000 genes in human DNA, determining the sequences of the 3 billion chemical base pairs that make up human DNA, storing this information in databases, and developing data analysis tools.",
+    answer: "Human Genome Project",
+    category: "Chapter1"
+  },
+  {
+    question: "The _____ enables people all around the world to quickly access and retrieve large amounts of information. With clever algorithms, sites on the _____ can manage and manipulate this large volume of data.",
+    answer: "Internet",
+    category: "Chapter1"
+  },
+  {
+    question: "_____ enables goods and services to be negotiated and exchanged electronically, and it depends on the privacy of personal information such as credit card numbers, passwords, and bank statements. _____'s core technologies include public-key cryptography and digital signatures, which are based on numerical algorithms and number theory.",
+    answer: "Electronic Commerce",
+    category: "Chapter1"
+  },
+  {
+    question: "_____ and other commercial enterprises often need to allocate scarce resources most beneficially.",
+    answer: "Manufacturing",
     category: "Chapter1"
   }
 ];
