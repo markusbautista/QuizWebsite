@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function checkVersion() {
-    alert("Last updated: 12/11/23 07:22am");
+    alert("Last updated: 01/23/24 06:39am; Module inserted: LITE Chapter 1");
 }
 
 displayRandomQuestion();
