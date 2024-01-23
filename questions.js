@@ -1,7 +1,7 @@
-import chapter1Questions from './q_categories/chapter1Questions.js';
+import chapter1_questions from './q_categories/chapter1Questions.js';
 
 const questions = [
-  ...chapter1Questions,
+  ...chapter1_questions,
 ];
 
 export default questions;
