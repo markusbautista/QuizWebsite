@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function checkVersion() {
-    alert("Last updated: 01/24/24 08:13pm; Module inserted: OOP Handouts");
+    alert("Last updated: 01/25/24 06:36pm; Module inserted: OOP Handouts");
 }
 
 displayRandomQuestion();
