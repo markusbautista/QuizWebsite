@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function checkVersion() {
-    alert("Last updated: 01/23/24 06:39am; Module inserted: LITE Chapter 1");
+    alert("Last updated: 01/24/24 08:13pm; Module inserted: OOP Handouts");
 }
 
 displayRandomQuestion();
