@@ -60,7 +60,7 @@ const oopHandouts_questions = [
     category: "oopHandouts"
   },
   {
-    question: "Some _____ describe all the public methods in a class while others specify only certain methods.",
+    question: "Some interfaces describe all the public methods in a class while others specify only certain methods.",
     answer: "True",
     category: "oopHandouts"
   },
@@ -310,7 +310,7 @@ const oopHandouts_questions = [
     category: "oopHandouts"
   },
   {
-    question: "The True modifier allows the method body to be visible to all classes everywhere. It contains the method’s code, including the declaration of local variables.",
+    question: "The _____ modifier allows the method body to be visible to all classes everywhere. It contains the method’s code, including the declaration of local variables.",
     answer: "True",
     category: "oopHandouts"
   },
