@@ -1,7 +1,7 @@
-import oopHandouts_questions from './q_categories/oopHandoutsQuestions.js';
+import chapter1_questions from './q_categories/chapter1Questions.js';
 
 const questions = [
-  ...oopHandouts_questions,
+  ...chapter1_questions,
 ];
 
 export default questions;
