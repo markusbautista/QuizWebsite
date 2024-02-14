@@ -110,62 +110,62 @@ const sql_questions = [
     category: "sql"
   },
   {
-    question: "holds whole numbers",
+    question: "Holds whole numbers",
     answer: "INT",
     category: "sql"
   },
   {
-    question: "holds numbers containing a decimal point.",
+    question: "Holds numbers containing a decimal point.",
     answer: "DECIMAL(size,d) or NUMERIC(size,d)",
     category: "sql"
   },
   {
-    question: "holds numbers containing a decimal point and uses 8 bytes for storage with up to 15 digits precision.",
+    question: "Holds numbers containing a decimal point and uses 8 bytes for storage with up to 15 digits precision.",
     answer: "FLOAT",
     category: "sql"
   },
   {
-    question: "holds a string.",
+    question: "Holds a string.",
     answer: "VARCHAR(size)",
     category: "sql"
   },
   {
-    question: "holds a fixed-length character string where the exact length of the data to be stored is already determined.",
+    question: "Holds a fixed-length character string where the exact length of the data to be stored is already determined.",
     answer: "CHAR(size)",
     category: "sql"
   },
   {
-    question: "holds date values in YYYY-MM-DD format.",
+    question: "Holds date values in YYYY-MM-DD format.",
     answer: "DATE",
     category: "sql"
   },
   {
-    question: "holds time values in HH:MI:SS.[nnnnnnnnn] format.",
+    question: "Holds time values in HH:MI:SS.[nnnnnnnnn] format.",
     answer: "SMALL DATETIME",
     category: "sql"
   },
   {
-    question: "holds date and time values in YYYY-MM-DD HH:MI:SS.[nnn] format.",
+    question: "Holds date and time values in YYYY-MM-DD HH:MI:SS.[nnn] format.",
     answer: "DATETIME",
     category: "sql"
   },
   {
-    question: "used to store images in binary format and holds up to 2 gigabytes of binary data.",
+    question: "Used to store images in binary format and holds up to 2 gigabytes of binary data.",
     answer: "VARBINARY(max)",
     category: "sql"
   },
   {
-    question: "used to store images in binary format.",
+    question: "Used to store images in binary format.",
     answer: "image",
     category: "sql"
   },
   {
-    question: "an integer data type which can store only 0 or 1 and can consume only a single bit of storage space.",
+    question: "An integer data type which can store only 0 or 1 and can consume only a single bit of storage space.",
     answer: "bit",
     category: "sql"
   },
   {
-    question: "used to store xml data.",
+    question: "Used to store xml data.",
     answer: "xml",
     category: "sql"
   },
@@ -200,8 +200,8 @@ const sql_questions = [
     category: "sql"
   },
   {
-    question: "Data Manipulation Language (DML) Statements - Used to control the contents of the tables and do not have an effect on the structure of the database.",
-    answer: "Used to control the contents of the tables and do not have an effect on the structure of the database.",
+    question: "Used to control the contents of the tables and do not have an effect on the structure of the database.",
+    answer: "Data Manipulation Language (DML) Statements",
     category: "sql"
   },
   {
@@ -225,8 +225,8 @@ const sql_questions = [
     category: "sql"
   },
   {
-    question: "Data Control Language (DCL) Statements - These are statements used to control a database including administering privileges by authorizing certain users to view, change, or delete database objects and/or the data within the database.",
-    answer: "These are statements used to control a database including administering privileges by authorizing certain users to view, change, or delete database objects and/or the data within the database.",
+    question: "These are statements used to control a database including administering privileges by authorizing certain users to view, change, or delete database objects and/or the data within the database.",
+    answer: "Data Control Language (DCL) Statements",
     category: "sql"
   },
   {
