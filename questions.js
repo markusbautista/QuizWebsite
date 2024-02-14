@@ -1,4 +1,4 @@
-import sql_questions from './q_categories/sql_questions.js';
+import sql_questions from './q_categories/sqlQuestions.js';
 
 const questions = [
   ...sql_questions,
