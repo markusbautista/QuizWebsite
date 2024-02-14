@@ -50,7 +50,7 @@ const sql_questions = [
     category: "sql"
   },
   {
-    question: "One of the first database products to run on a variety of platforms. SQL ^Plus and Developer.",
+    question: "One of the first database products to run on a variety of platforms. SQL *Plus and Developer.",
     answer: "Oracle",
     category: "sql"
   },
@@ -215,7 +215,7 @@ const sql_questions = [
     category: "sql"
   },
   {
-    question: "UPDATE - modifies the data stored in the database tables. DML",
+    question: "Modifies the data stored in the database tables. DML",
     answer: "UPDATE",
     category: "sql"
   },
