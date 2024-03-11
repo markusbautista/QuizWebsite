@@ -1,9 +1,9 @@
 import componentsOfMultimedia_questions from './q_categories/componentsOfMultimedia.js';
-import art_questions from './q_categories/art.js';
+import whenToUseAnimations_questions from './q_categories/whenToUseAnimations.js';
 
 const questions = [
   ...componentsOfMultimedia_questions,
-  ...art_questions
+  ...whenToUseAnimations_questions
 ];
 
 export default questions;
