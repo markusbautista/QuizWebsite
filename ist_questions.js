@@ -12,7 +12,8 @@ const questions = [
   ...howToIncorporateAnimations_questions,
   ...principlesOfAnimations_questions,
   ...interactiveSystemDesign_questions,
-  ...interactiveSystemDesignLifeCycle_questions
+  ...interactiveSystemDesignLifeCycle_questions,
+  ...art_questions
 ];
 
 export default questions;
