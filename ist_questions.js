@@ -1,9 +1,7 @@
-import art_questions from './q_categories/art.js';
-import history_questions from './q_categories/history.js';
-import science_questions from './q_categories/science.js';
+import componentsOfMultimedia_questions from './q_categories/componentsOfMultimedia.js';
 
 const questions = [
-  ...science_questions
+  ...componentsOfMultimedia_questions
 ];
 
 export default questions;
