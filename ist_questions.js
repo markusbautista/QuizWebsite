@@ -4,6 +4,7 @@ import howToIncorporateAnimations_questions from './q_categories/howToIncorporat
 import principlesOfAnimations_questions from './q_categories/principlesOfAnimations.js';
 import interactiveSystemDesign_questions from './q_categories/interactiveSystemDesign.js';
 import interactiveSystemDesignLifeCycle_questions from './q_categories/interactiveSystemDesignLifeCycle.js';
+import testingPhases_questions from './q_categories/testingPhases.js';
 
 const questions = [
   ...componentsOfMultimedia_questions,
@@ -11,7 +12,8 @@ const questions = [
   ...howToIncorporateAnimations_questions,
   ...principlesOfAnimations_questions,
   ...interactiveSystemDesign_questions,
-  ...interactiveSystemDesignLifeCycle_questions
+  ...interactiveSystemDesignLifeCycle_questions,
+  ...testingPhases_questions
 ];
 
 export default questions;
