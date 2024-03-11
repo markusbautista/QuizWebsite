@@ -58,6 +58,16 @@ const interactiveSystemDesignPhases_questions = [
     question: "In which integration testing method are the highest-level modules tested first, followed by progressively lower-level modules?",
     answer: "Top-down integration testing",
     category: "interactiveSystemDesignPhases"
+  },
+  {
+    question: "What involves writing code for the user interface components of the system?",
+    answer: "Frontend Development",
+    category: "interactiveSystemDesignPhases"
+  },
+  {
+    question: "What encompasses the server-side logic and functionality necessary to support the interactive system?",
+    answer: "Backend Development",
+    category: "interactiveSystemDesignPhases"
   }
 ];
 
