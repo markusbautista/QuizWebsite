@@ -10,12 +10,12 @@ body {
 }
 
 body.light-mode {
-    background-color: #fff;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 body.light-mode #quiz-container {
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 body.light-mode label {
