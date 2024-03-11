@@ -20,7 +20,10 @@ const questions = [
   ...interactiveSystemDesign_questions,
   ...interactiveSystemDesignPhases_questions,
   ...interactiveSystemDesignLifeCycle_questions,
-  ...testingPhases_questions
+  ...testingPhases_questions,
+  ...requirementSpecification_questions,
+  ...architecturalDesign_questions,
+  ...detailedDesign_questions
 ];
 
 export default questions;
