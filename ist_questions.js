@@ -7,6 +7,8 @@ import interactiveSystemDesignPhases_questions from './q_categories/interactiveS
 import interactiveSystemDesignLifeCycle_questions from './q_categories/interactiveSystemDesignLifeCycle.js';
 import testingPhases_questions from './q_categories/testingPhases.js';
 import requirementSpecification_questions from './q_categories/requirementSpecification.js';
+import architecturalDesign_questions from './q_categories/architecturalDesign.js';
+
 
 const questions = [
   ...componentsOfMultimedia_questions,
