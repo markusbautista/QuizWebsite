@@ -1,4 +1,4 @@
-import questions from './questions.js';
+import questions from './ist_questions.js';
 
 let usedQuestions = [];
 
