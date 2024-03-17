@@ -24,8 +24,7 @@ const questions = [
   ...testingPhases_questions,
   ...requirementSpecification_questions,
   ...architecturalDesign_questions,
-  ...detailedDesign_questions,
-  ...trueOrFalse_questions
+  ...detailedDesign_questions
 ];
 
 export default questions;
