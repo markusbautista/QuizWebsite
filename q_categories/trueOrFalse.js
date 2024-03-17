@@ -1,82 +1,82 @@
 const trueOrFalse_questions = [
   {
     question: "Animation in design refers to dynamic visual effects that enhance user interaction and experience and make interfaces intuitive and engaging. Effective animations guide users, clarify relationships, provide feedback, and add liveliness to the product.",
-    answer: True,
+    answer: "True",
     category: "trueOrFalse"
   },
   {
     question: "Designers should create purposeful, intentional, subtle, responsive animations and test them with users. Otherwise, excessive or poorly timed animations can distract users or even detract from the usability of a product.",
-    answer: True,
+    answer: "True",
     category: "trueOrFalse"
   },
   {
     question: "Animations should harmonize with design to improve functionality and aesthetic appeal, and every movement should serve a meaningful and constructive role in the user interface.",
-    answer: True,
+    answer: "True",
     category: "trueOrFalse"
   },
   {
     question: "UI animations in design play a crucial role; they contribute significantly to the functionality and appeal of user interfaces.",
-    answer: True,
+    answer: "True",
     category: "trueOrFalse"
   },
   {
     question: "Designers use animations to highlight changes, guide tasks, provide feedback, and add a layer of polish to a design.",
-    answer: True,
+    answer: "True",
     category: "trueOrFalse"
   },
   {
     question: "Animations draw attention and provide visual cues, making interactions more intuitive and navigation more apparent. They smooth transitions between different states or pages, reduce cognitive load and prevent disorientation.",
-    answer: True,
+    answer: "True",
     category: "trueOrFalse"
   },
   {
     question: "Moreover, animations inject personality and emotion into a product. They can create a memorable experience, resonate with users and differentiate a brand.",
-    answer: True,
+    answer: "True",
     category: "trueOrFalse"
   },
   {
     question: "The core purpose of UI animations is to enhance the usability and appeal of a product.",
-    answer: True,
+    answer: "True",
     category: "trueOrFalse"
   },
   {
     question: "Animations in design are purely decorative elements that do not contribute to user experience or interface functionality.",
-    answer: False,
+    answer: "False",
     category: "trueOrFalse"
   },
   {
     question: "Designers should avoid using animations altogether, as they often confuse users and make interfaces less intuitive.",
-    answer: False,
+    answer: "False",
     category: "trueOrFalse"
   },
   {
     question: "Animations in design are primarily used for entertainment purposes and do not serve any practical function.",
-    answer: False,
+    answer: "False",
     category: "trueOrFalse"
   },
   {
     question: "UI animations are only used to make the interface appear visually appealing and do not affect usability.",
-    answer: False,
+    answer: "False",
     category: "trueOrFalse"
   },
   {
     question: "Multimedia refers only to the use of text and images, excluding other forms of media such as audio, video, and animations.",
-    answer: False,
+    answer: "False",
     category: "trueOrFalse"
   },
   {
     question: "Multimedia is a outdated concept and is no longer relevant in modern digital design.",
-    answer: False,
+    answer: "False",
     category: "trueOrFalse"
   },
   {
     question: "Multimedia content is limited to static formats and cannot be interactive or dynamic.",
-    answer: False,
+    answer: "False",
     category: "trueOrFalse"
   },
   {
     question: "Multimedia is a restrictive format that limits creativity and expression in content creation.",
-    answer: False,
+    answer: "False",
     category: "trueOrFalse"
   },
   {
