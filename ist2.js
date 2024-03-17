@@ -44,7 +44,7 @@ function shuffleOptions(options) {
 
 function generateOptionsByCategory(category, correctAnswer) {
     const options = [];
-    while (options.length < 3) {
+    while (options.length < 1) {
         const randomQuestion = getRandomQuestionByCategory(category);
         const randomOption = getRandomOptionByCategory(category, randomQuestion.answer);
         if (!options.includes(randomOption) && randomOption !== correctAnswer) {
