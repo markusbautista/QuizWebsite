@@ -9,6 +9,7 @@ import testingPhases_questions from './q_categories/testingPhases.js';
 import requirementSpecification_questions from './q_categories/requirementSpecification.js';
 import architecturalDesign_questions from './q_categories/architecturalDesign.js';
 import detailedDesign_questions from './q_categories/detailedDesign.js';
+import generalQuestions_questions from './q_categories/generalQuestions.js';
 
 
 
