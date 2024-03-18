@@ -11,8 +11,6 @@ import architecturalDesign_questions from './q_categories/architecturalDesign.js
 import detailedDesign_questions from './q_categories/detailedDesign.js';
 import generalQuestions_questions from './q_categories/generalQuestions.js';
 
-
-
 const questions = [
   ...componentsOfMultimedia_questions,
   ...whenToUseAnimations_questions,
