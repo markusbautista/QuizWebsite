@@ -10,7 +10,6 @@ import requirementSpecification_questions from './q_categories/requirementSpecif
 import architecturalDesign_questions from './q_categories/architecturalDesign.js';
 import detailedDesign_questions from './q_categories/detailedDesign.js';
 import generalQuestions_questions from './q_categories/generalQuestions.js';
-import adobeAnimate_questions from './q_categories/adobeAnimate.js';
 
 const questions = [
   ...componentsOfMultimedia_questions,
@@ -24,8 +23,7 @@ const questions = [
   ...requirementSpecification_questions,
   ...architecturalDesign_questions,
   ...detailedDesign_questions,
-  ...generalQuestions_questions,
-  ...adobeAnimate_questions
+  ...generalQuestions_questions
 ];
 
 export default questions;
