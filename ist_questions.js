@@ -11,6 +11,7 @@ import architecturalDesign_questions from './q_categories/architecturalDesign.js
 import detailedDesign_questions from './q_categories/detailedDesign.js';
 import generalQuestions_questions from './q_categories/generalQuestions.js';
 import adobeAnimateFileTypes_questions from './q_categories/adobeAnimateFileTypes.js';
+import adobeAnimatePanels_questions from './q_categories/adobeAnimatePanels.js';
 
 const questions = [
   ...componentsOfMultimedia_questions,
