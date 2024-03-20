@@ -26,7 +26,8 @@ const questions = [
   ...architecturalDesign_questions,
   ...detailedDesign_questions,
   ...generalQuestions_questions,
-  ...adobeAnimateFileTypes_questions
+  ...adobeAnimateFileTypes_questions,
+  ...adobeAnimatePanels_questions
 ];
 
 export default questions;
