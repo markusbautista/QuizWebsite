@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function checkVersion() {
-    alert("Last updated: 03/18/24 10:57am");
+    alert("Last updated: 03/21/24 4:32pm");
 }
 
 displayRandomQuestion();
