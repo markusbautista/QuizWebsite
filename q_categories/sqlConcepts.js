@@ -43,7 +43,22 @@ const sqlConcepts_questions = [
     question: "Used to end SQL statements. In some variants of the SQL _____ is optional.",
     answer: "Semicolon",
     category: "sqlConcepts"
-  }
+  },
+  {
+    question: "These are statements that define, modify, and destroy the structure of the database and the tables within the database.",
+    answer: "Data Definition Language (DDL) Statements",
+    category: "sqlConcepts"
+  },
+  {
+    question: "Used to control the contents of the tables and do not have an effect on the structure of the database.",
+    answer: "Data Manipulation Language (DML) Statements",
+    category: "sqlConcepts"
+  },
+  {
+    question: "These are statements used to control a database including administering privileges by authorizing certain users to view, change, or delete database objects and/or the data within the database.",
+    answer: "Data Control Language (DCL) Statements",
+    category: "sqlConcepts"
+  },
 ];
 
 export default sqlConcepts_questions;
