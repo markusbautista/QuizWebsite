@@ -5,12 +5,12 @@ const sql_questions = [
     category: "sql"
   },
   {
-    question: "SQL was initially named as SEQUEL and was developed by the _____ in California in the year 1970 and was later called SQL.",
+    question: "SQL was initially named as Structured English Query Language (SEQUEL) and was developed by the _____ in California in the year 1970 and was later called SQL.",
     answer: "IBM Corporation Inc",
     category: "sql"
   },
   {
-    question: "_____ was initially named as SEQUEL and was developed by the IBM Corporation Inc in California in the year 1970 and was later called _____.",
+    question: "_____ was initially named as Structured English Query Language (SEQUEL) and was developed by the IBM Corporation Inc in California in the year 1970 and was later called _____.",
     answer: "SQL",
     category: "sql"
   },
