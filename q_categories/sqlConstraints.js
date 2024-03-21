@@ -11,7 +11,7 @@ const sqlConstraints_questions = [
   },
   {
     question: "What is used to determine if null values are allowed in the column, with NOT NULL placed after the data type declaration if the column is required to always have a value?",
-    answer: "NULL | NOT NULL",
+    answer: "NULL/NOT NULL",
     category: "sqlConstraints"
   },
   {
