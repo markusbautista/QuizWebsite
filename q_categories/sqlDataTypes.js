@@ -46,17 +46,17 @@ const sqlDataTypes_questions = [
   },
   {
     question: "Used to store images in binary format.",
-    answer: "image",
+    answer: "Image",
     category: "sqlDataTypes"
   },
   {
     question: "An integer data type which can store only 0 or 1 and can consume only a single bit of storage space.",
-    answer: "bit",
+    answer: "Bit",
     category: "sqlDataTypes"
   },
   {
     question: "Used to store xml data.",
-    answer: "xml",
+    answer: "XML",
     category: "sqlDataTypes"
   }
 ];
