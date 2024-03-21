@@ -1,10 +1,5 @@
 const sqlStatements_questions = [
   {
-    question: "These are statements that define, modify, and destroy the structure of the database and the tables within the database.",
-    answer: "Data Definition Language (DDL) Statements",
-    category: "sqlStatements"
-  },
-  {
     question: "Creates a new database. DDL",
     answer: "CREATE DATABASE",
     category: "sqlStatements"
@@ -30,11 +25,6 @@ const sqlStatements_questions = [
     category: "sqlStatements"
   },
   {
-    question: "Used to control the contents of the tables and do not have an effect on the structure of the database.",
-    answer: "Data Manipulation Language (DML) Statements",
-    category: "sqlStatements"
-  },
-  {
     question: "Inserts new data into the database table. DML",
     answer: "INSERT INTO",
     category: "sqlStatements"
@@ -52,11 +42,6 @@ const sqlStatements_questions = [
   {
     question: "Removes a row/record from a database table. DML",
     answer: "DELETE",
-    category: "sqlStatements"
-  },
-  {
-    question: "These are statements used to control a database including administering privileges by authorizing certain users to view, change, or delete database objects and/or the data within the database.",
-    answer: "Data Control Language (DCL) Statements",
     category: "sqlStatements"
   },
   {
